@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="css/Contato.css" />
+    <title>Contato</title>
+  </head>
+
+  <body>
+    <style>
+      body {
+        background-color: rgb(191, 239, 255);
+        font-family: Arial;
+        font-size: 12pt;
+      }
+    </style>
+        <div>
+            <header id="cabecalho">
+                <nav id="menu">
+                    <ul>
+                        <li><a href="Home.html">Home</a></li>
+                        <li><a href="QuemSomos.html">Quem Somos</a></li>
+                        <li><a href="Produto.html">Produtos</a></li>
+                        <li><a href="Localizacao.html">Localização</a></li>
+                        <li><a href="Login.html">Login</a></li>
+
+                    </ul>
+                </nav>
+            
+            </header>
+
+            <h1>Contato</h1>
+              <p>Entre em contato com nós para fazer pedidos, encomendas ou preencher e ter mais detalhes sobre vagas de emprego.</p>
+
+            </br></br>
+
+            <center>
+            <h4><b>Telefone: </b>11 99876-5432</h4>
+            <h4><b>Horário de atendimento:</br></br>Segunda - Quinta das 10:00 às 20:00</br>Sexta - Domingo das 10:00 às 23:00</b></h4>
+            </center>
+
+            </br></br></br></br></br>
+
+            <center>
+
+
+
+              <form action="Cria_Login.php" method="POST">
+                <fieldset id="forms1" style = "width: 450px;">
+                    <p><b>Crie um cadastro para enviar seu curriculo</b></p>
+                    </br>
+                    Login: <INPUT TYPE = "TEXT" SIZE = "40" name="Login" id="Login">
+                    </br></br>
+                    Senha: <INPUT TYPE = "password" SIZE = "40" name="Senha" id="Senha">
+                    </br></br>
+
+                                            
+                    </br></br>
+                    <CENTER><INPUT TYPE="RESET" VALUE = "Limpar">  <INPUT id="Enviar" TYPE="SUBMIT" VALUE="Cadastrar"></CENTER>
+                </fieldset>
+            </form>
+
+            <form action="Login.php" method="POST">
+              <fieldset id="forms1" style = "width: 450px;">
+                  <p><b>Já tenho um cadastro</b></p>
+                  </br>
+                  Login: <INPUT TYPE = "TEXT" SIZE = "40" name="Login" id="Login">
+                  </br></br>
+                  Senha: <INPUT TYPE = "password" SIZE = "40" name="Senha" id="Senha">
+                  </br></br>
+
+                                          
+                  </br></br>
+                  <CENTER><INPUT TYPE="RESET" VALUE = "Limpar">  <INPUT id="Enviar" TYPE="SUBMIT" VALUE="Entrar"></CENTER>
+              </fieldset>
+          </form>
+
+            
+            </center>
+         </div>
+    </body>
+</html>
